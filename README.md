@@ -25,7 +25,7 @@ docker run -it --rm -p 8000:8000 jeffmaher/django-dev sh
 You'll likely want to map a directory from your host or import an existing Django app. Let's say you want to start a new project in the `./code` directory on your host machine. You'd start Docker with this command:
 
 ```
-docker run -it --rm -v ./code:/workspace -p 8000:8000 jeffmaher/django-dev
+docker run -it --rm -v ./code:/workspace -p 8000:8000 jeffmaher/django-dev sh
 ```
 
 Then create your new Django project:
